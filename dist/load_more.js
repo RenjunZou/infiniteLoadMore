@@ -38,6 +38,7 @@ angular.module('ion-load-more')
 
             var start = function(){
                 scope.loadOptions.loading = true;
+                scope.$apply()
                 var q = scope.onLoad()
 
                 if (q && q.then) {
@@ -51,6 +52,7 @@ angular.module('ion-load-more')
                 $timeout(function(){
                     scope.loadOptions.loading = false;
                     scrollCtrl.scrollView.resize();
+                    scope.$apply()
                 }, 500)
             });
 
