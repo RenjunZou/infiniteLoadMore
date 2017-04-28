@@ -1,8 +1,8 @@
 # infiniteLoadMore
 
 ## Prerequisites
-*ionic
-*brower
+* ionic
+* brower
 
 ## Setup
 
