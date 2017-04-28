@@ -1,6 +1,6 @@
 # infiniteLoadMore
 
-An improved `<ion-infinite-load>` from **ionic-v1**. This loader only load items when drag for a certain distance and won't keep loading when the list does not fill the whole screen.
+An improved `<ion-infinite-scroll>` from **ionic-v1**. This loader only load items when drag for a certain distance and won't keep loading when the list does not fill the whole screen.
 
 ## Prerequisites
 * ionic
