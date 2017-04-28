@@ -1,0 +1,24 @@
+{
+  "name": "infiniteLoadMore",
+  "homepage": "https://github.com/RenjunZou/infiniteLoadMore",
+  "authors": [
+    "renjunzou <renjunzou719@gmail.com>"
+  ],
+  "description": "'load-more' component for ionic framwork",
+  "main": [".dist/load_more.js"],
+  "keywords": [
+    "infinite",
+    "load",
+    "load-more",
+    "ion-infinite-scroll"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
