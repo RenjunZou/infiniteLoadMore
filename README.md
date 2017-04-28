@@ -10,6 +10,7 @@
 `bower install 'git://github.com/RenjunZou/infiniteLoadMore.git'`
 #### Import
 Include the file in your `index.html`
+
 `<script src="bower_components/infiniteLoadMore/dist/load_more.js"></script>`
 
 ## Usage
