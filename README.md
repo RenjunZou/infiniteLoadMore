@@ -15,9 +15,11 @@ Include the file in your `index.html`
 
 `<script src="bower_components/infiniteLoadMore/dist/load_more.js"></script>`
 
+If possible change the `ion-load-more` in `angular.module('ion-load-more')` from load_more.js to your app module.
+
 ## Usage
 #### Basic Example
-`<load-more on-load="MY_LOAD_FUNCTION()"></load-more>`
+`<ion-load-more on-load="MY_LOAD_FUNCTION()"></load-more>`
 <p data-height="265" data-theme-id="0" data-slug-hash="RVpbKd" data-default-tab="result" data-user="richardzou" data-embed-version="2" data-pen-title="Ionic Infinite Load" class="codepen">See the Pen <a href="https://codepen.io/richardzou/pen/RVpbKd/">Ionic Infinite Load</a> by RenjunZou (<a href="http://codepen.io/richardzou">@richardzou</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 ## Attributes
