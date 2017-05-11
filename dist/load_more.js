@@ -51,8 +51,8 @@ angular.module('ion-load-more')
             scope.$on('scroll.loadMoreComplete', function(){
                 $timeout(function(){
                     scope.loadOptions.loading = false;
+                    scope.$apply();
                     scrollCtrl.scrollView.resize();
-                    scope.$apply()
                 }, 500)
             });
 
